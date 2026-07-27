@@ -1,0 +1,19 @@
+# AVR build files
+*.elf
+*.hex
+*.eep
+*.o
+*.obj
+*.map
+*.lss
+
+# Dependency files
+*.d
+
+# Editor files
+.vscode/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
