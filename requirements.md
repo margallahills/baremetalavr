@@ -12,29 +12,25 @@
 
 
 
-\## Toolchain
+\## Verified toolchain
 
 
 
-| Package | Version | Purpose |
+| Tool | Version | Purpose |
 
-| mingw-w64-ucrt-x86\_64-avr-binutils | 2.47-1 | GNU Binutils for AVR target |
+| avr-gcc | 15.2.0 | AVR C compiler |
 
-| mingw-w64-ucrt-x86\_64-avr-gcc | 15.2.0-1 | GCC compiler for AVR microcontrollers |
+| avrdude | 8.0 | AVR programmer/flasher |
 
-| mingw-w64-ucrt-x86\_64-avr-libc | 2.3.1-1 | AVR C runtime library |
-
-| mingw-w64-ucrt-x86\_64-avrdude | 8.0-2 | Flashing/programming AVR microcontrollers |
+| make | 4.4.1 | Build automation |
 
 
 
-\## Development tools
+\## Target hardware
 
 
 
-\- make
+\- Arduino Uno Rev3
 
-\- git
-
-\- VS Code
+\- ATmega328P
 
