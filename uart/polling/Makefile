@@ -2,7 +2,7 @@ MCU = atmega328p
 CC = avr-gcc
 OBJCOPY = avr-objcopy
 
-CFLAGS = -mmcu=$(MCU) -Os
+CFLAGS = -mmcu=$(MCU) -Os -DF_CPU=16000000UL
 
 TARGET = main
 BUILD_DIR = build
